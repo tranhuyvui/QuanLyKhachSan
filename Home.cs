@@ -132,6 +132,36 @@ namespace QuanLyKhachSan
         {
             LoadFormToPanel(new QLDV());
         }
+
+        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void toolStripQLNV_Click(object sender, EventArgs e)
+        {
+            LoadFormToPanel(new QLNV());
+        }
+
+        private void toolStripQLP_Click(object sender, EventArgs e)
+        {
+            LoadFormToPanel(new QLPhong());
+        }
+
+        private void toolStripQLTK_Click(object sender, EventArgs e)
+        {
+            LoadFormToPanel(new QLTK());
+        }
+
+        private void toolStripQLDV_Click(object sender, EventArgs e)
+        {
+            LoadFormToPanel(new QLDV());
+        }
+
+        private void lậpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     

@@ -129,6 +129,7 @@
     <Compile Include="ThongTinHeThong.Designer.cs">
       <DependentUpon>ThongTinHeThong.cs</DependentUpon>
     </Compile>
+    <Content Include="image\hotel.png" />
     <EmbeddedResource Include="DatDV.resx">
       <DependentUpon>DatDV.cs</DependentUpon>
     </EmbeddedResource>
