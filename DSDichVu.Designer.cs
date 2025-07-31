@@ -35,8 +35,8 @@
             this.DonGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MoTa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.iconButton4 = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,15 +100,6 @@
             this.textBox1.Size = new System.Drawing.Size(163, 30);
             this.textBox1.TabIndex = 37;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(822, 200);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 30);
-            this.button1.TabIndex = 38;
-            this.button1.Text = "Tìm kiếm";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(865, 12);
@@ -119,13 +110,31 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // iconButton4
+            // 
+            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton4.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
+            this.iconButton4.IconColor = System.Drawing.Color.DodgerBlue;
+            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton4.IconSize = 30;
+            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton4.Location = new System.Drawing.Point(824, 200);
+            this.iconButton4.Name = "iconButton4";
+            this.iconButton4.Size = new System.Drawing.Size(126, 30);
+            this.iconButton4.TabIndex = 40;
+            this.iconButton4.Text = "Tìm kiếm";
+            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.iconButton4.UseVisualStyleBackColor = true;
+            // 
             // DSDichVu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(977, 622);
+            this.Controls.Add(this.iconButton4);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.dataGridView1);
@@ -145,7 +154,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn DonGia;
         private System.Windows.Forms.DataGridViewTextBoxColumn MoTa;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button5;
+        private FontAwesome.Sharp.IconButton iconButton4;
     }
 }
